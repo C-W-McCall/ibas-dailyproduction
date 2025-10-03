@@ -5,7 +5,12 @@
         data: {
             x: "x",
             type: "bar",
-            columns: data
+            columns: data,
+            colors: {
+                "IBv1": "#1f77b4",      // Blue
+                "evIB100": "#ff7f0e",    // Orange  
+                "evIB200": "#2ca02c"     // Green
+            }
         },
         axis: {
             x: {
@@ -15,5 +20,10 @@
                 }
             }
         },
+        bar: {
+            width: {
+                ratio: 0.8
+            }
+        }
     });
 }

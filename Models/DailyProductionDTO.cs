@@ -12,8 +12,8 @@ public enum BikeModel {
 /// </summary>
 public class DailyProductionDTO
 {
-    public DateTime Date { get; set; }
-    public BikeModel Model { get; set; }
+    public DateTime? Date { get; set; }
+    public BikeModel? Model { get; set; }
     public int ItemsProduced { get; set; }
 
 }
